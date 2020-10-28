@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg4629"
+   version="1.1"
+   viewBox="0 0 157.24358 157.24358"
+   height="157.24358mm"
+   width="157.24358mm">
+  <defs
+     id="defs4623" />
+  <metadata
+     id="metadata4626">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-197.51595,-34.490487)"
+     id="layer1">
+    <g
+       transform="translate(175.59608,-7.7508163)"
+       id="g5225">
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:7.56500006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4631"
+         cx="100.54166"
+         cy="120.86309"
+         r="74.839287" />
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:7.56500006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4631-0"
+         cx="100.35269"
+         cy="120.67411"
+         r="57.389389" />
+      <circle
+         style="fill:#ffffff;fill-opacity:1;stroke:#ff0000;stroke-width:7.56500006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4631-0-3"
+         cx="101.10862"
+         cy="120.39859"
+         r="37.420952" />
+      <circle
+         style="fill:#ff0004;fill-opacity:1;stroke:#ff0000;stroke-width:7.56500006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path4631-0-3-7"
+         cx="101.42879"
+         cy="120.20121"
+         r="16.704683" />
+    </g>
+  </g>
+</svg>
