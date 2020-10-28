@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/timerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Timer name..."
+        android:inputType="textCapSentences|text" />
+
+    <!--    Top row of buttons-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="30">
+
+        <danielabbott.personalorganiser.ui.HoldableImageButton
+            android:id="@+id/bHrAdd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:background="#00ffffff"
+            app:srcCompat="@drawable/ic_up" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <danielabbott.personalorganiser.ui.HoldableImageButton
+            android:id="@+id/bMinAdd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="#00ffffff"
+            app:srcCompat="@drawable/ic_up" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <danielabbott.personalorganiser.ui.HoldableImageButton
+            android:id="@+id/bSecAdd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:background="#00ffffff"
+            app:srcCompat="@drawable/ic_up" />
+
+    </LinearLayout>
+
+    <!--    Hours/Minutes/Seconds-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="30">
+
+        <EditText
+            android:id="@+id/hours"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="00"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text=":"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/minutes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="00"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text=":"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/seconds"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="2"
+            android:text="00"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <!--    Bottom row of buttons-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="30">
+
+        <danielabbott.personalorganiser.ui.HoldableImageButton
+            android:id="@+id/bHrSub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:background="#00ffffff"
+            app:srcCompat="@drawable/ic_down" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <danielabbott.personalorganiser.ui.HoldableImageButton
+            android:id="@+id/bMinSub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="#00ffffff"
+            app:srcCompat="@drawable/ic_down" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <danielabbott.personalorganiser.ui.HoldableImageButton
+            android:id="@+id/bSecSub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:background="#00ffffff"
+            app:srcCompat="@drawable/ic_down" />
+
+    </LinearLayout>
+</LinearLayout>

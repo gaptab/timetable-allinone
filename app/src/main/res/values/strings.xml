@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Timetable</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="condesc_menu_icon">Menu</string>
+    <string name="condesc_menu_button_to_do_list">To Do List</string>
+    <string name="condesc_menu_button_timetable">Timetable</string>
+    <string name="condesc_menu_button_goals">Goals</string>
+    <string name="menu_button_to_do_list">To Do List</string>
+    <string name="menu_button_timetable">Timetable</string>
+    <string name="menu_button_goals">Goals</string>
+    <string name="menu_button_timers">Timers</string>
+    <string name="menu_button_notes">Notes</string>
+    <string name="menu_button_settings">Settings</string>
+
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="repeat_values_reduced">
+        <item>None</item>
+        <item>Daily</item>
+        <item>Every other day</item>
+    </string-array>
+
+    <string-array name="repeat_values">
+        <item>None</item>
+        <item>Daily</item>
+        <item>Every other day</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <!--Do not change without changing code in SettingsFragment.kt-->
+    <string-array name="timetable_font_sizes">
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+    </string-array>
+</resources>
